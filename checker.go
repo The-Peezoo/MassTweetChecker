@@ -36,16 +36,20 @@ func ASCII() {
 }
 
 func processTweets() {
+	
+	    colorRed := "\033[31m"
+
         file, err := os.Open("list.txt")
         if err != nil {
-                fmt.Println("Error opening the file:", err)
+                fmt.Println(colorRed, "Error opening the file:", err)
+		fmt.Println(colorRed, "You need to create a file named list.txt and put all the links in it. Then run this tool again.")
                 return
         }
         defer file.Close()
 
         links, err := ioutil.ReadAll(file)
         if err != nil {
-                fmt.Println("Error reading the file:", err)
+                fmt.Println(colorRed, "Error reading the file:", err)
                 return
         }
 
@@ -56,7 +60,7 @@ func processTweets() {
                 url := fmt.Sprintf("https://publish.twitter.com/oembed?url=%s&partner=&hide_thread=false", tweetLink)
                 response, err := http.Get(url)
                 if err != nil {
-                        fmt.Println("Request error:", err)
+                        fmt.Println(colorRed, "Request error:", err)
                         continue
                 }
 
