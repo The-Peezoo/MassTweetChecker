@@ -12,13 +12,11 @@ go build checker.go
 
 <h2><u>Installing for Winows</u></h2>
 
-First you have to install <a href="https://go.dev/doc/install">Golang</a> <br>
-Then go to <a href="">Realeases</a> and download the latest zip file. <br>
+Then go to <a href="https://github.com/The-Peezoo/MassTweetChecker/releases/tag/Windows">Realeases</a> and download the latest zip file. <br>
 Unzip the folder <br>
-Open the folder in cmd.exe <br> 
+In your fileexplorer type 'cmd.exe' in the adressbar to start cmd.exe<br> 
 Type the following into cmd <br>
 ```
-go build checker.go 
 checker
 ```
 
