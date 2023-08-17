@@ -12,18 +12,18 @@ go build checker.go
 
 <h2><u>Installing for Winows</u></h2>
 
-First you have to install <a href="https://go.dev/doc/install">Golang</a>
-Then go to <a href="">Realeases</a> and download the latest zip file.
-Unzip the folder
-Open the folder in cmd.exe 
-Type the following into cmd
+First you have to install <a href="https://go.dev/doc/install">Golang</a> <br>
+Then go to <a href="">Realeases</a> and download the latest zip file. <br>
+Unzip the folder <br>
+Open the folder in cmd.exe <br> 
+Type the following into cmd <br>
 ```
 go build checker.go 
 checker
 ```
 
 <h2><u>How to Use?</u></h2>
-Create the file 'list.txt' in the Directory of TweetChecker and put all the links to the Tweets into it.
+Create the file 'list.txt' in the Directory of TweetChecker and put all the links to the Tweets into it. <br>
 Open the Folder in cmd or in your Terminal and run the Tool by typing './checker' or 'go run checker.go'.
 
 <h2><u>I dont wonna use this Tool on my own PC, what can i do?</u></h2>
