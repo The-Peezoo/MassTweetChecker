@@ -1,5 +1,7 @@
 # MassTweetChecker
 
+![Image](https://github.com/The-Peezoo/MassTweetChecker/blob/main/TweetCheck.png?raw=true)
+
 <h2><u>Installing for Linux</u></h2>
 
 First you have to install <a href="https://go.dev/doc/install">Golang</a>
