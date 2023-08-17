@@ -1,6 +1,6 @@
 # MassTweetChecker
 
-<h2><u>Installing</u></h2>
+<h2><u>Installing for Linux</u></h2>
 
 
 ```
