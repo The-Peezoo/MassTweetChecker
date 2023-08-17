@@ -19,7 +19,7 @@ Open the folder in cmd.exe
 Type the following into cmd
 ```
 go build checker.go 
-./checker
+checker
 ```
 
 <h2><u>How to Use?</u></h2>
