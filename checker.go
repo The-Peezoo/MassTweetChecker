@@ -66,7 +66,7 @@ func processTweets() {
                 }
 
                 if response.StatusCode == 403 {
-                        fmt.Printf("Tweet not available, account could be suspended: %s\n", tweetLink) // Reply status code 403 = Tweet not available 
+                        fmt.Printf("Tweet not available, account could be suspended: %s\n", tweetLink) // Request status code 403 = Tweet not available 
                 } else if response.StatusCode == 200 {
                         // Tweet still exists
                         existLinks = append(existLinks, tweetLink)
