@@ -11,6 +11,11 @@ cd MassTweetChecker
 go build checker.go 
 ./checker
 ```
+OR 
+```
+go install github.com/The-Peezoo/MassTweetChecker@latest
+MassTweetChecker
+```
 
 <h2><u>Installing for Windows</u></h2>
 
@@ -21,7 +26,11 @@ Type the following into cmd <br>
 ```
 checker
 ```
-
+OR (if GoLang is installed)
+```
+go install github.com/The-Peezoo/MassTweetChecker@latest
+MassTweetChecker
+```
 <h2><u>How to Use?</u></h2>
 1. Both: <br>
 Create the file 'list.txt' in the Directory of TweetChecker and put all the links to the Tweets into it. <br>
