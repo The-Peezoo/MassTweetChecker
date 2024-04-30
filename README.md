@@ -19,7 +19,7 @@ MassTweetChecker
 
 <h2><u>Installing for Windows</u></h2>
 
-Go to <a href="https://github.com/The-Peezoo/MassTweetChecker/releases/tag/Windows">Realeases</a> and download the latest zip file. <br>
+Go to <a href="https://github.com/The-Peezoo/MassTweetChecker/releases/tag/Windows">Releases</a> and download the latest zip file. <br>
 Unzip the folder <br>
 In your Fileexplorer type 'cmd' in the adressbar to start cmd.exe<br> 
 Type the following into cmd <br>
